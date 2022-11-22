@@ -1,0 +1,21 @@
+
+
+
+.all_contnets{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border: 1px solid 000000;
+    background-color: aqua;
+}
+
+.cover{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
