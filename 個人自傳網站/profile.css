@@ -1,21 +1,57 @@
+/*navbar容器*/
+.navbar{
+    display: flex; /*彈性容器起手式*/ 
+    background-color: black; /*navbar背景顏色*/
+    opacity: .8; /*navbar透明度*/
+    justify-content: left; /*子元素都向左邊靠對齊*/
+    
+}
 
+/*navbar的item需要再內包裝一次*/
+.nav-all{
+    padding-left: 50px; /*設定整體item靠最左邊的距離*/
+}
 
+/*navbar的各個item*/
+.nav-item{
+    display: inline; /*使items不換行，維持在同一排*/
+    background-color: aliceblue; /*item box 的顏色*/
 
-.all_contnets{
-    display: flex;
-    justify-content: center;
+    /*設定item box的大小*/
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+
+    /*設定item box彼此間距*/
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/*navbar item的超連結文字*/
+.nav-url{
+    text-decoration: none; /*刪除下划線*/
+    color: black; /*設定字體顏色*/
+}
+
+/*設定網頁內容*/
+.contents{
+    padding-left: 5%; /*其母元素與子元素左間距*/
+    padding-right: 5%; /*其母元素與子元素右間距*/
+    background-color: #ffc857; /*網頁背景顏色*/
+}
+
+/*cover容器*/
+.cover{
+    display: flex; /*彈性容器起手式*/ 
+    justify-content: center; /*子元素置中對齊*/
+
+    /*cover容器大小*/
     padding-top: 100px;
     padding-bottom: 100px;
     padding-left: 100px;
     padding-right: 100px;
-    border: 1px solid 000000;
-    background-color: aqua;
-}
 
-.cover{
-    display: flex;
-    justify-content: center;
-    
+    background-color: rgb(47, 143, 143); /*cover容器背景顏色*/
 }
-
 
